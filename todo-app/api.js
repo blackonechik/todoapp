@@ -1,4 +1,4 @@
-const ENDPOINT_URL = `http://localhost:3000/api/todos`;
+const ENDPOINT_URL = `https://todo-backend-n79r.onrender.com/api/todos`;
 
 export async function getTodoList(owner) {
     const response = await fetch(`${ENDPOINT_URL}?owner=${owner}`);
